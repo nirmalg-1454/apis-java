@@ -1,0 +1,21 @@
+# Run below command to generate the keystore and add the properties in applicaiton.properties file
+
+C:\apis-java>keytool -genkey -alias tomcat -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12  -validity 3650
+Enter keystore password:
+
+Re-enter new password:
+
+What is your first and last name?
+  [Unknown]:  Nirmal
+What is the name of your organizational unit?
+  [Unknown]:  Home
+What is the name of your organization?
+  [Unknown]:  Home
+What is the name of your City or Locality?
+  [Unknown]:  Thalappalli
+What is the name of your State or Province?
+  [Unknown]:  TN
+What is the two-letter country code for this unit?
+  [Unknown]:  IN
+Is CN=Nirmal, OU=Home, O=Home, L=Thalappalli, ST=TN, C=IN correct?
+  [no]:  yes
